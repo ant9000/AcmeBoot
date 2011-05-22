@@ -180,7 +180,8 @@ endif
 
 # Tool suffix when cross-compiling
 #CROSS_COMPILE=arm-linux-gnueabi-
-CROSS_COMPILE= /home/$(USER)/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-
+#CROSS_COMPILE= /home/$(USER)/CodeSourcery/Sourcery_G++_Lite/bin/arm-none-eabi-
+CROSS_COMPILE=arm-none-eabi-
 
 # Compilation tools
 CC = $(CROSS_COMPILE)gcc
